@@ -20,7 +20,7 @@ This is a book-searching app. You put keywords to the wanted genre or topic and 
 
 Book Listing app would allow a user to get a list of published books on a given topic.
 [Google Books API](https://developers.google.com/books/docs/v1/getting_started#intro) is used in order to fetch results and display them to the user.<br/>
-A user is able to enter a keyword, press the search button, and recieve a list of published books which relate to that keyword. When the user clicks on the book, it will direct him to a link of that book in Google Books.
+A user is able to enter a keyword, press the search button, and receive a list of published books which relate to that keyword. When the user clicks on the book, it will direct him to a link of that book in Google Books.
 All API querying processes are done in an AsyncTask background thread.<br/> Once the query is done, the result is parsed.
 This involves storing the information returned by the API in a custom class.<br/>
 Finally, list and Adapter pattern is used to populate a list on the user's screen with the information stored in the custom objects which was written earlier.
